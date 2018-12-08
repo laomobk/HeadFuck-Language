@@ -13,7 +13,7 @@ public class headfuck
 	private BufferedReader reader;
 	private int[] RAM = new int[MAX_SIZE];//cerate V-RAM
 	private int pointer = 0;//default 0
-	private boolean canread;
+	private boolean canread = true;
 	
 	public headfuck(String path){
 		try
